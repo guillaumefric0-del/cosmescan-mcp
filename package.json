@@ -1,0 +1,51 @@
+{
+  "name": "cosmescan-mcp",
+  "version": "1.0.0",
+  "description": "Official Model Context Protocol (MCP) server for CosmeScan — decode cosmetic, skincare, K-Beauty & perfume batch codes, freshness, PAO and EU recalls across 2,375 brands.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "cosmescan-mcp": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "cosmescan",
+    "batch-code",
+    "cosmetics",
+    "perfume",
+    "skincare",
+    "k-beauty",
+    "pao",
+    "expiration-date",
+    "beauty",
+    "eu-recalls",
+    "counterfeit"
+  ],
+  "author": "Guillaume F. <guillaume@cosmescan.com> (https://cosmescan.com)",
+  "license": "MIT",
+  "homepage": "https://cosmescan.com/api-docs/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaumefric0-del/cosmescan-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guillaumefric0-del/cosmescan-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.2"
+  }
+}
